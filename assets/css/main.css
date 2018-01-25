@@ -2080,10 +2080,10 @@
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			width: 100%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
-			min-height: 150px;
+			min-height: 200px;
 		}
 
 			.features section:nth-child(-n + 2) {
