@@ -18,15 +18,15 @@
 
 		--near-black-purple: #590101; /* #261c3e; */
 		--very-dark-purple: #380000; /* #312450; */
-		--very-dark-purple-point-09: rgba(49, 36, 80, 0.9);
-		--also-dark-purple: #5E00013; /* c2c62 */
-		--dark-purple: #600000; /* #493382; */
-		--regular-purple: #ad0101; /* #5e42a6 */
-		--light-purple: #c40000; /* #b74e91; */
+		--very-dark-purple-point-09: #380000; /*rgba(49, 36, 80, 0.9);*/
+		--also-dark-purple: #5E0001; /* 3c2c62 */
+		--dark-purple: #380000; /* #493382; */
+		--regular-purple: #726767; /* #ad0101, #5e42a6 */
+		--light-purple: #514f4f; /* #b74e91; */
 		--dark-pink: #e20000; /* #953d75; */
 
-		--indigo-blue: #c62a07; /* #5052b5; */
-		--indigo-dark-blue: #3e4094;
+		--indigo-blue: #605959; /* #5052b5; */
+		--indigo-dark-blue: #380000;
 	}
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2083,6 +2083,7 @@
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
+			min-height: 150px;
 		}
 
 			.features section:nth-child(-n + 2) {
@@ -3793,7 +3794,7 @@
 			}
 
 			#sidebar nav a:before {
-				background: var(--also-dark-purple);
+				background: inherit; /* var(--also-dark-purple); */
 			}
 
 			#sidebar nav a:after {
